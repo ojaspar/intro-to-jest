@@ -6,7 +6,10 @@ const functions = {
     });
   },
   falsyValue: () => false,
-  nullValue: () => null
+  creatUser: (name, lastname) => {
+    const user = { name, lastname };
+    return user;
+  }
 };
 
 module.exports = functions;
